@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin-top: 0 !important;
+}
+
+.homepage-text {
+    padding: 10px 10px;
+    background-color: #453f3f;
+    color: white;
+}
+
+.nav-container {
+    padding: 15px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+    color: black;
+}
+
+.homepage-content {
+    margin-top: 10px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage-content a {
+    margin: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.all-games-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.all-games-btn:hover {
+    background-color: rgb(144, 141, 141);
+    border-color: rgb(144, 141, 141);
+    cursor: pointer;
+}
+
+/* woocommerce classes style editing */
+.woocommerce-product-gallery__wrapper img {
+    max-height: 80vh;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.site-main, .woocommerce {
+    padding: 20px;
+}
+
+/* custom banner styling on product page */
+.custom-product-banner {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background: #453f3f;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* removing the quantity column from cart */
+.woocommerce-cart-form .product-quantity {
+    display: none !important;
+}
+
+
+/* my account styling */
+.woocommerce{
+    min-height: 95vh;
+}
+
+.woocommerce-MyAccount-navigation {
+    background: #fffafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 96% !important;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.woocommerce-MyAccount-navigation ul li a {
+    display: block;
+    padding: 10px 15px;
+    background: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
+
+.woocommerce-MyAccount-navigation ul li a:hover,
+.woocommerce-MyAccount-navigation ul li.is-active a {
+    background: #453f3f;
+    color: white;
+}
+
+.woocommerce-MyAccount-content {
+    background: #fffafa;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    width: 97%  !important;
+}
+
+.woocommerce form .form-row input,
+.woocommerce form .form-row textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+.woocommerce form .form-row input:focus,
+.woocommerce form .form-row textarea:focus {
+    border-color: #4C4DDC;
+    outline: none;
+}
+
+.woocommerce-button,
+button,
+input[type="submit"] {
+    background: #4C4DDC;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.woocommerce-button:hover,
+button:hover,
+input[type="submit"]:hover {
+    background: #3a3bbc;
+}
+
+.woocommerce-orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.woocommerce-orders-table th,
+.woocommerce-orders-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.woocommerce-orders-table th {
+    background: #f8f9fa;
+    font-weight: bold;
+}
+
+
+/* payment icons styles */
+.wc_payment_methods img{
+    width: 50px;
+}
+
+.wc_payment_methods li{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,1 @@
+2025-04-02T17:54:49+00:00 ERROR Error creating Stripe webhook. Mode: live. Reason: Invalid URL: http://game-store-assignment-2.local/wp-json/wc-stripe/v1/webhook. URLs in livemode must begin with "https://"
